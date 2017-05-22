@@ -1,0 +1,8 @@
+- name: "Contact"
+  link: "contact"
+
+- name: "CV/Resume"
+  link: "cv.pdf"
+
+- name: "About"
+  link: "/researcher/"
