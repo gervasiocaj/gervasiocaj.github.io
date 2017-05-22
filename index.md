@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="https://www.gravatar.com/avatar/fd127ed35958329475c032fcc0b24d10?s=030">
+<img class="profile-picture" src="https://www.gravatar.com/avatar/fd127ed35958329475c032fcc0b24d10?s=300">
 
 Hi! I am a student of B.E. Computer Science at Federal University of Campina Grande, Brazil.
 
@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Interests
 
-<a target="_blank" href="https://trakt.tv/users/gervasiocaj"><img width="500" height="281" alt="gervasiocaj" src="https://widgets.trakt.tv/users/f242ec54b32827b9d6e40f84be7087e3/watched/fanart2@2x.jpg" /></a>
+<a target="_blank" href="https://trakt.tv/users/gervasiocaj"><img alt="gervasiocaj" src="https://widgets.trakt.tv/users/f242ec54b32827b9d6e40f84be7087e3/watched/banner@2x.jpg" /></a>
 
 ## This site
 
