@@ -21,4 +21,5 @@ is_contact: true
 
 ## Social
 
+1. [GitHub](https://github.com/gervasiocaj)
 1. [Facebook](https://www.facebook.com/gervasiocaj)
