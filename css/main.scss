@@ -2,7 +2,19 @@
 ---
 @import "style";
 
-.caption {
-	text-align: center;
-	font-size: 75%;
+.blog-post {
+
+  .caption {
+    text-align: center;
+    font-size: 75%;
+  }
+
+  .body {
+    line-height: 140%;
+  }
+
+  .date {
+    float: right;
+  }
+
 }

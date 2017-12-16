@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
+<div class="blog-post">
+	<h1 class="title">
+		{{ page.title }}
+	</h1>
 
-<h1 id="post-title">
-	{{ page.title }}
-</h1>
+	<div class="body">
+		{{ content }}
+	</div>
 
-{{ content }}
-
-<div style="float: right;">
-	Published on {{ page.date | date: "%b %d, %Y" }}
+	<div class="date" style="float: right;">
+		Published on {{ page.date | date: "%b %d, %Y" }}
+	</div>
 </div>
