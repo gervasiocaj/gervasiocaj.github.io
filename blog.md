@@ -6,13 +6,14 @@ title: Blog
   <div class="archive-list">
   {% if site.posts.size == 0 %}
     <h2>No posts found</h2>
+
   {% else %}
   {% for post in site.posts %}
     <div class="archive-list-post">
       {% if post.link %}
       <a href="{{ post.link }}">
       {% else %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <a href="{{ post.url }}">
       {% endif %}  
         <span class="archive-list-post-title">
           {{ post.title }}

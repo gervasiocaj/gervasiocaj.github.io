@@ -12,6 +12,9 @@ I wanted to replicate it, but I had no raw data. So I had to gather it.
 Last year, I had set up a IFTTT script that logged my Deezer activity to a Google Docs sheet.
 Here is a excerpt of the data:
 
+{::options parse_block_html="true" /}
+<div style="overflow-x: auto;">
+
 | Track | Track URL | Album | Album URL | Artist | Artist URL | Date |
 | --- | --- | --- | --- | --- | --- |
 | At Dawn's First Light | http://www.deezer.com/track/120923668 | At Dawn's First Light | http://www.deezer.com/album/12626808 | Amon Amarth | http://www.deezer.com/artist/6065 | October 24, 2017 at 10:11PM |
@@ -19,6 +22,8 @@ Here is a excerpt of the data:
 | The Way of Vikings | http://www.deezer.com/track/121588488 | Jomsviking | http://www.deezer.com/album/12707128 | Amon Amarth | http://www.deezer.com/artist/6065 | October 24, 2017 at 10:13PM |
 | Raise Your Horns | http://www.deezer.com/track/121588486 | Jomsviking | http://www.deezer.com/album/12707128 | Amon Amarth | http://www.deezer.com/artist/6065 | October 24, 2017 at 10:16PM |
 | First Kill | http://www.deezer.com/track/117953668 | First Kill | http://www.deezer.com/album/12250896 | Amon Amarth | http://www.deezer.com/artist/6065 | October 24, 2017 at 10:19PM |
+
+</div>
 
 Using Sublime Text 3, I converted all the rows in the format used in [this script](https://gitorious.org/fmthings/lasttolibre/?p=fmthings:lasttolibre.git;a=blob;f=libreimport.py;h=5b67a8b9fc1dc9b7cb7c772fbf00adec03361435;hb=HEAD#l49).
 Note that the data must be separated by tabs. Also, the MBIDs don't have to be necessarily valid, so I filled them with a single whitespace character.
