@@ -25,6 +25,9 @@ Here is a excerpt of the data:
 
 </div>
 
+Part of the data available
+{: .caption}
+
 Using Sublime Text 3, I converted all the rows in the format used in [this script](https://gitorious.org/fmthings/lasttolibre/?p=fmthings:lasttolibre.git;a=blob;f=libreimport.py;h=5b67a8b9fc1dc9b7cb7c772fbf00adec03361435;hb=HEAD#l49).
 Note that the data must be separated by tabs. Also, the MBIDs don't have to be necessarily valid, so I filled them with a single whitespace character.
 
