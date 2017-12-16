@@ -33,7 +33,7 @@ Note that the data must be separated by tabs. Also, the MBIDs don't have to be n
 
 The dates must be converted to timestamps. To achieve this, I used this tool: <http://unixtimestamp.50x.eu>.
 
-I chose <libre.fm> because of the open-source aspect. They have some tools, and I used the Commandline tools available at <https://git.gnu.io/foocorp/librefm/wikis/LastToLibre>.
+I chose [libre.fm](https://libre.fm/) because of the open-source aspect, they have some useful import/export tools. I used the Commandline tools available at <https://git.gnu.io/foocorp/librefm/wikis/LastToLibre>.
 Specifically, the `libreimport.py` script. I also used it to import my Last.fm data, extracted using `lastexport.py`.
 
 After I finished importing the Google Docs data, I felt that something was missing.
