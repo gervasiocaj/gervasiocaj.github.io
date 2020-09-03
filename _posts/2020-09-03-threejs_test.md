@@ -1,4 +1,9 @@
-# test
+---
+layout: post
+title: three.js test
+published: true
+---
+
 <div>
   <style>
     body {
