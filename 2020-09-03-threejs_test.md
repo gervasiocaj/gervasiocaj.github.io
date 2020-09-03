@@ -19,13 +19,13 @@
 
   <script type="module">
 
-    import * as THREE from '../build/three.module.js';
+    import * as THREE from 'https://unpkg.com/browse/three@0.120.1/build/three.min.js';
 
-    import Stats from './jsm/libs/stats.module.js';
+    import Stats from 'https://unpkg.com/browse/three@0.120.1/examples/jsm/libs/stats.module.js';
 
-    import { GUI } from './jsm/libs/dat.gui.module.js';
-    import { OrbitControls } from './jsm/controls/OrbitControls.js';
-    import { HDRCubeTextureLoader } from './jsm/loaders/HDRCubeTextureLoader.js';
+    import { GUI } from 'https://unpkg.com/browse/three@0.120.1/examples/jsm/libs/dat.gui.module.js';
+    import { OrbitControls } from 'https://unpkg.com/browse/three@0.120.1/examples/jsm/controls/OrbitControls.js';
+    import { HDRCubeTextureLoader } from 'https://unpkg.com/browse/three@0.120.1/examples/jsm/loaders/HDRCubeTextureLoader.js';
 
     var params = {
       envMap: 'HDR',
